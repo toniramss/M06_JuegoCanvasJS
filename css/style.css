@@ -1,0 +1,25 @@
+canvas {
+    display: block;
+    background-color: #f0f0f0;
+    border: 2px solid #000;
+    background-image: url(/img/fondo3.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  body {
+    background-color: #3989F2;
+
+    
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+  }

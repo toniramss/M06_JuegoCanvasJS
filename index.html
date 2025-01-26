@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galactic Odyssey</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url("img/fondo5.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: 'Arial', sans-serif;
+            color: white;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .title {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);
+        }
+
+        .description {
+            font-size: 1rem;
+            margin-bottom: 40px;
+        }
+
+        .play-button {
+            font-size: 1.5rem;
+            padding: 10px 30px;
+            color: white;
+            background: #191E30;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0px 4px 10px #488194;
+        }
+
+        .play-button:hover {
+            background: #488194;
+            transform: scale(1.1);
+        }
+
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Galactic Odyssey</h1>
+        <p class="description">¡Prepárate para una aventura intergaláctica! <br><br> Explora el espacio,  esquiva asteroides y  <br> supera desafíos en este emocionante juego de astros.</p>
+        <button class="play-button" onclick="startGame()">Play</button>
+    </div>
+
+    <script>
+        function startGame() {
+            // Aquí puedes redirigir al usuario a tu juego o iniciar la lógica del mismo
+            window.location.href = 'game.html'; // Cambia 'game.html' por el archivo de tu juego
+        }
+    </script>
+</body>
+</html>
